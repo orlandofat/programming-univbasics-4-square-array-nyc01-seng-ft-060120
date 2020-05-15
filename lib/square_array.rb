@@ -1,5 +1,5 @@
-def square_array(array)
-  [].tap do |a|
-    array.each do { |n| a << n * n }
-  end
+ef square_array(ary)
+  a = Array.new(ary.length)
+  ary.each_index { |i| a[i] = ary[i] * ary[i] }
+  a
 end
