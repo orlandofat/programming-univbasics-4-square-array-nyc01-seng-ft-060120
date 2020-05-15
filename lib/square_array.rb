@@ -1,3 +1,5 @@
 def square_array(array)
-  array.reduce([]) { |a, n| a << n * n }
+  [].tap do |a|
+    array.each do { |n| a << n * n }
+  end
 end
