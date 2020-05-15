@@ -5,4 +5,3 @@ def square_array(array)
   arr
 end
  square_array(arr)
-end
